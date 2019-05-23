@@ -6,8 +6,8 @@ def sort_array_desc(integers)
   integers.sort {|x,y| -(x <=> y)}
 end
 
-def sort_array_char_count(string)
-  string.sort do |a, b|
+def sort_array_char_count(array)
+  array.sort do |a, b|
     if a == b 
       0 
       elsif a < b 
