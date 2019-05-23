@@ -10,3 +10,4 @@ def sort_array_char_count(animals)
   animals.sort do |a, b|
     a <=> b 
 end
+end
