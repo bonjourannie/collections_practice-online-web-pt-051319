@@ -8,6 +8,11 @@ end
 
 def sort_array_char_count(string)
   string.sort do |a, b|
-    a <=> b 
+    if a == b 
+      0 
+      elsif a < b 
+      -1
+      elsif a > b 
+      1 
 end
 end
